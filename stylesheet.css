@@ -1,0 +1,23 @@
+/* rgb(234, 232, 228) */
+body {
+    margin: 0;
+}
+.terms-banner {
+    background-color: rgb(234, 232, 228);
+    color: #28400C;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 14.72px;
+    min-height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#here {
+    color: #28400C;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(172, 171, 167);
+    padding-bottom: 1.5px;
+}
