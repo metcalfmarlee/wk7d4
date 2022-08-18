@@ -6,7 +6,7 @@ body {
     background-color: rgb(234, 232, 228);
     color: #28400C;
     font-family: Calibri, Helvetica, Arial, sans-serif;
-    font-size: 14.72px;
+    font-size: 13px;
     min-height: 40px;
     font-weight: bold;
     display: flex;
@@ -20,4 +20,61 @@ body {
     text-decoration: none;
     border-bottom: 1px solid rgb(172, 171, 167);
     padding-bottom: 1.5px;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 242, 239);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1232px;
+    height: 70px;
+
+}
+
+#title > a > img{
+    /* border: 1px solid red; */
+    display: flex;
+        max-width: 150px;
+        justify-content: flex-start;
+}
+
+
+.menu-options {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position:relative;
+        left: 20%;
+
+}
+
+.menu-options * {
+    padding: 0px 12.32px;
+    white-space: nowrap;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.start-button {
+
+}
+.menu > div > button {
+    background-color: #00C585;
+    border-radius: 24px;
+    padding: 6px 16px 8px;
+    font-size: 17px;
+    color: white;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.22px;
+    white-space: nowrap;
+    border: 1px transparent;
 }

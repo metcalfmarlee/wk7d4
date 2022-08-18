@@ -12,8 +12,8 @@ and precision.
 ## Project overview
 
 The objective of this project is to make a copy of a homepage of your choosing.
-You can either pick a homepage of a website you wish to copy or choose from a 
-list we have provided. Use what you've learned about wireframes, accessibility, 
+You can either pick a homepage of a website you wish to copy or choose from a
+list we have provided. Use what you've learned about wireframes, accessibility,
 HTML, and CSS to apply styles to various elements.
 
 You will accomplish this goal through completing the following phases:
@@ -32,7 +32,7 @@ at the bottom of this README file.
 
 ## Phase 0: Planning and Setup
 
-Choose a homepage to clone. If you are unsure of which you would like to work 
+Choose a homepage to clone. If you are unsure of which you would like to work
 with, consider choosing from this list:
 
 - [Medium][medium]
@@ -55,7 +55,7 @@ Set up a new project in VSCode, with an HTML file and CSS file.
 
 Based on your planning notes, create your HTML and CSS files. Incorporate all of
 the HTML elements and any interactions that are present on the original
-homepage. 
+homepage.
 
 ## Phase 2: Deploy the Project
 
