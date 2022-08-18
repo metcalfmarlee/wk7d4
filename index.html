@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
 </head>
 
 <body>
@@ -42,6 +43,32 @@
                 treehouses, and glamping.
             </h2>
         </div>
+        <fieldset class="booking-bar">
+            <label for="search">WHERE TO?</label>
+            <div class="search-group">
+                <i class="fa fa-search"> </i>
+                <input type="search" id="search-bar" placeholder="Try Yosemite, Napa, Moab...">
+            </div>
+
+            <label for="choose-date">DATES</label>
+            <div class="date-group">
+                <i class="fa fa-calendar"> </i>
+                <input type="date" id="date"
+                value="2018-07-22" min="2018-01-01" max="2018-12-31" placeholder="Enter dates">
+            </div>
+
+            <label for="guests">GUESTS</label>
+            <div class="guests-group">
+                <i class="fa fa-user"> </i>
+                <select id="guests">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+
+            <div class="search-button"><i class="fa fa-search"> </i></div>
+        </fieldset>
 
     </main>
 

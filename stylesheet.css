@@ -126,3 +126,49 @@ h2 {
     font-family: Calibre, Helvetica, Arial, sans-serif;
     transform:scaleY(105%)
 }
+
+fieldset {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: Calibre, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 50%;
+}
+.search-group {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.date-group {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.guests-group {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.search-button {
+    grid-column: 4;
+        grid-row: 2;
+}
+
+
+.search-group,
+.date-group,
+.guests-group {
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+
+}
+
+#search-bar,
+#date,
+#guests {
+    border: transparent;
+    outline: none;
+
+}
