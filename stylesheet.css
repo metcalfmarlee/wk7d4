@@ -127,13 +127,15 @@ h2 {
     transform:scaleY(105%)
 }
 
-fieldset {
+.booking-bar {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 25% 25% 25% 25%;
     font-family: Calibre, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    border-radius: 50%;
+    /* border-radius: ; */
+    background-color: rgb(227, 225, 225);
+
 }
 .search-group {
     grid-column: 1;
